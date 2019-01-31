@@ -1,22 +1,40 @@
 {
   "todos": [
     {
-      "label": "Rechnung schreiben",
+      "label": "Doku schreiben",
+      "status": true,
+      "position": 2,
+      "id": 2
+    },
+    {
+      "label": "Login machen",
+      "status": true,
+      "position": 3,
+      "id": 4
+    },
+    {
+      "label": "Schlafen",
       "status": false,
       "position": 1,
+      "id": 5
+    },
+    {
+      "label": "Sport machen",
+      "status": false,
+      "position": 4,
       "id": 6
     },
     {
-      "label": "Telefonieren",
+      "label": "Doku",
       "status": false,
-      "position": 2,
+      "position": 3,
       "id": 7
     },
     {
-      "label": "Design",
+      "label": "Login",
       "status": false,
-      "position": 4,
-      "id": 15
+      "position": 2,
+      "id": 8
     }
   ]
 }

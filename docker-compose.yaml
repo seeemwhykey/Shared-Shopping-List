@@ -1,0 +1,12 @@
+version: "2"
+services:
+  todolist:
+    build: ./ToDoList
+    image: todolist
+    ports:
+      - 8080:8080
+  todolist-backend:
+    build: ./server
+    image: todolist-backend
+    ports:
+      - 3000:3000
